@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

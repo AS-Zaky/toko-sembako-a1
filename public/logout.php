@@ -1,0 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+require_once dirname(__DIR__) . '/app/bootstrap.php';
+
+Auth::logout();
+
+session_start();
+flash('success', 'Anda telah keluar.');
+redirect('login.php');
